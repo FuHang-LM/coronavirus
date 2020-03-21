@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>重庆疫情数据</title>
+    <link rel="stylesheet" href="../../static/css/province.css">
+</head>
+<body>
+<div class="frame">
+    <div class="top">
+        <a href="/" style="text-decoration: none;line-height: 50px;font-size: 20px">返&ensp;回</a>
+    </div>
+    <div class="bottom">
+        <div class="left">
+            <div class="left_right_top">
+                <!--                <h3 style="top: 10px;left: 10px;font-size: 1rem;color: white">近七周新冠肺炎疫情趋势</h3>-->
+            </div>
+            <div class="left_right_bottom"></div>
+        </div>
+        <div class="center">
+            <div class="center_1" style="width: 100%;height: 100px;display: flex;justify-content: space-around">
+                <div style="color: orange;">
+                    <span class="size_color">现有确诊</span>
+                    <span id="cur" class="size" style="font-size: 2rem"></span>
+                    <span style="color: white;font-size: 12px">昨日<a id="add_cur"></a></span>
+                </div>
+                <div style="color: red;">
+                    <span class="size_color">累计确诊</span>
+                    <span id="sum" class="size" style="font-size: 2rem"></span>
+                    <span style="color: white;font-size: 12px">昨日<a id="add_sum"></a></span>
+                </div>
+                <div style="color: #73CD11;">
+                    <span class="size_color">累计治愈</span>
+                    <span id="cure" class="size" style="font-size: 2rem"></span>
+                    <span style="color: white;font-size: 12px">昨日<a id="add_cure"></a></span>
+                </div>
+                <div style="color: gray;">
+                    <span class="size_color">累计死亡</span>
+                    <span id="died" class="size" style="font-size: 2rem"></span>
+                    <span style="color: white;font-size: 12px">昨日<a id="add_died"></a></span>
+                </div>
+            </div>
+            <div id="map" style="width: 100%;height: 400px;background: #73CD11;margin-top: 10px">
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="left_right_top">
+                <div><span style="color: white;font-size: 1.5rem">本地播报</span></div>
+                <div class="item" style="height:250px;line-height:1.5rem">
+                    <ul id="div1"></ul>
+                </div>
+
+            </div>
+            <div id="div2" class="left_right_bottom"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../../static/lib/jquery-3.4.1.min.js"></script>
+<script src="../../static/lib/echarts.js"></script>
+<script src="../../static/lib/province/chongqing.js"></script>
+
+<script src="../../static/js/province/chongqing.js"></script>
+</html>

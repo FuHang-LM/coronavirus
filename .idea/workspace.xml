@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e719feb8-d7d5-46b0-a107-4002ff609816" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yq7xyShgyPOfW0OxGluuSdyKIG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js/province" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\templates\province" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\templates" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\static\lib" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\reptile\py_folder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\static\js\province" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\static\lib" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\static\img\province" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\static\img" />
+      <recent name="E:\JetBrainsFile\PyCharmFile\pneumonia_new\templates\province" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pneumonia_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guojia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pneumonia_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reptile/py_folder/province" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reptile/py_folder/province/guojia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hubei (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pneumonia_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database/write_data/province" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/write_data/province/hubei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hubei" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pneumonia_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reptile/py_folder/province" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reptile/py_folder/province/hubei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pneumonia_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reptile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reptile/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pneumonia_new" type="Python.FlaskServer">
+      <module name="pneumonia_new" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.pneumonia_new" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.start" />
+      <item itemvalue="Python.hubei" />
+      <item itemvalue="Python.hubei (1)" />
+      <item itemvalue="Python.guojia" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.guojia" />
+        <item itemvalue="Python.hubei (1)" />
+        <item itemvalue="Python.hubei" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e719feb8-d7d5-46b0-a107-4002ff609816" name="Default Changelist" comment="" />
+      <created>1583658520978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583658520978</updated>
+      <workItem from="1583658585597" duration="29862000" />
+      <workItem from="1583759233463" duration="985000" />
+      <workItem from="1583760273235" duration="843000" />
+      <workItem from="1583761148436" duration="57616000" />
+      <workItem from="1583906974635" duration="53377000" />
+      <workItem from="1584076123358" duration="30000" />
+      <workItem from="1584105540264" duration="106461000" />
+      <workItem from="1584322251832" duration="125270000" />
+      <workItem from="1584595454102" duration="47879000" />
+      <workItem from="1584699707012" duration="1777000" />
+      <workItem from="1584714138778" duration="273000" />
+      <workItem from="1584714443191" duration="1593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="71" key="#Inspections" timestamp="1583987576034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1583987576034" />
+    <state x="506" y="71" key="#SQL_Dialects" timestamp="1583768628900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1583768628900" />
+    <state x="258" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584535638453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="258" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584535638453" />
+    <state x="507" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584676716695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584676716695" />
+    <state x="581" y="240" key="EnvironmentVariablesDialog" timestamp="1583762953536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="581" y="240" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583762953536" />
+    <state x="623" y="208" key="FileChooserDialogImpl" timestamp="1583763174575">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="623" y="208" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583763174575" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1584716038511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584716038511" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1584716038511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584716038511" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1584716038511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584716038511" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1584716038511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584716038511" />
+    <state width="1138" height="258" key="GridCell.Tab.1.bottom" timestamp="1583906939500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1138" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583906939500" />
+    <state width="1138" height="258" key="GridCell.Tab.1.center" timestamp="1583906939500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1138" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583906939500" />
+    <state width="1138" height="258" key="GridCell.Tab.1.left" timestamp="1583906939499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1138" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583906939499" />
+    <state width="1138" height="258" key="GridCell.Tab.1.right" timestamp="1583906939500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1138" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583906939500" />
+    <state x="345" y="109" key="SettingsEditor" timestamp="1584162093407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584162093407" />
+    <state x="443" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1584714442666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="310" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584714442666" />
+    <state x="527" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584527669015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584527669015" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pneumonia_new$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1583936298631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/read_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1583825422167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$global.coverage" NAME="global Coverage Results" MODIFIED="1583768239660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$hubei__1_.coverage" NAME="hubei (1) Coverage Results" MODIFIED="1584674729648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data/province" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$app.coverage" NAME="app Coverage Results" MODIFIED="1584715477387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$global_data__1_.coverage" NAME="global_data (1) Coverage Results" MODIFIED="1583676695178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$domestic.coverage" NAME="domestic Coverage Results" MODIFIED="1584614016841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$test.coverage" NAME="test Coverage Results" MODIFIED="1583931760823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$search_hot__1_.coverage" NAME="search_hot (1) Coverage Results" MODIFIED="1584373528719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$start.coverage" NAME="start Coverage Results" MODIFIED="1584715450552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$domestic_data.coverage" NAME="domestic_data Coverage Results" MODIFIED="1584613864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$province_date__1_.coverage" NAME="province_date (1) Coverage Results" MODIFIED="1583934592705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$real_time.coverage" NAME="real_time Coverage Results" MODIFIED="1584613364247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$real_time__1_.coverage" NAME="real_time (1) Coverage Results" MODIFIED="1584535889280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1583820767327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$global_data.coverage" NAME="global_data Coverage Results" MODIFIED="1584276762056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$chongqing__1_.coverage" NAME="chongqing (1) Coverage Results" MODIFIED="1584669586686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data/province" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$province.coverage" NAME="province Coverage Results" MODIFIED="1583932012654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$hubei.coverage" NAME="hubei Coverage Results" MODIFIED="1584674676748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder/province" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$province_date__2_.coverage" NAME="province_date (2) Coverage Results" MODIFIED="1583932635088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$chongqing.coverage" NAME="chongqing Coverage Results" MODIFIED="1584669581150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder/province" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$date_data__1_.coverage" NAME="date_data (1) Coverage Results" MODIFIED="1584285878714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1583931669078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$guojia.coverage" NAME="guojia Coverage Results" MODIFIED="1584700280102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder/province" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$summary.coverage" NAME="summary Coverage Results" MODIFIED="1584002421459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database/write_data" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$date_data.coverage" NAME="date_data Coverage Results" MODIFIED="1584285779953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+    <SUITE FILE_PATH="coverage/pneumonia_new$search_hot.coverage" NAME="search_hot Coverage Results" MODIFIED="1584529013350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptile/py_folder" />
+  </component>
+</project>

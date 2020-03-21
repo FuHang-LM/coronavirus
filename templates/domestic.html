@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>国内疫情</title>
+    <script type="text/javascript" src="../static/lib/echarts.js"></script>
+    <script type="text/javascript" src="../static/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../static/lib/china.js"></script>
+    <script type="text/javascript" src="../static/js/domestic_map.js"></script>
+
+</head>
+<body>
+
+<div>
+
+    <div>
+        <input id="cur_diagnosis" name="satisfaction" type="radio" style="display: none"/>
+        <input id="sum_diagnosis" name="satisfaction" type="radio" style="display: none"/>
+        <label for="cur_diagnosis" id="div1" style="cursor: pointer;display: inline-block">现有确诊</label>
+        <label for="sum_diagnosis" id="div2" style="cursor: pointer;display: inline-block">累计确诊</label>
+    </div>
+
+    <div style="width: 800px;height: 500px;margin: auto;" id="china_map"></div>
+
+</div>
+
+</body>
+</html>

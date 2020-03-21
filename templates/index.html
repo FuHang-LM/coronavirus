@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新冠肺炎疫情报告实时大数据分析</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/fonts/icomoon.css">
+    <link rel="stylesheet" href="../static/css/swiper_lunbo.css">
+
+</head>
+
+<body>
+
+<div class="viewport">
+    <!--<div style="width: 100px;height: 50px;background: red">国外疫情</div>-->
+    <div class="column">
+        <div style="position:absolute;left: 15rem;top: -1.8rem"><a id="guowai" href="/global" style="font-size: 1rem;text-decoration:none;">国外疫情</a></div>
+        <!--概览-->
+        <div class="overview panel">
+            <div class="inner">
+                <div class="item">
+                    <h5 style="color: gray">较上日<a id="num1_relative" style="color: red"></a></h5>
+                    <h4 style="color: red" id="num1"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: red"></i>
+                            现有确诊
+                        </span>
+                </div>
+                <div class="item">
+                    <h5 style="color: gray">较上日<a id="num2_relative" style="color: orange"></a></h5>
+                    <h4 style="color: orange" id="num2"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: orange"></i>
+                            现有疑似
+                        </span>
+                </div>
+
+                <div class="item">
+                    <h5 style="color: gray">较上日<a id="num3_relative" style="color: #2d557d"></a></h5>
+                    <h4 style="color: #2d557d" id="num3"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: #2d557d"></i>
+                            现有重症
+                        </span>
+                </div>
+                <div class="item" style="margin-top: 0.8rem">
+                    <h5 style="color: gray">较上日<a id="num4_relative" style="color: darkred"></a></h5>
+                    <h4 style="color: darkred" id="num4"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: darkred"></i>
+                            累计确诊
+                        </span>
+                </div>
+                <div class="item" style="margin-top: 0.8rem">
+                    <h5 style="color: gray">较上日<a id="num5_relative" style="color: #6acca3"></a></h5>
+                    <h4 style="color: #6acca3" id="num5"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: #6acca3"></i>
+                            累计治愈
+                        </span>
+                </div>
+                <div class="item" style="margin-top: 0.8rem">
+                    <h5 style="color: gray">较上日<a id="num6_relative" style="color: gray"></a></h5>
+                    <h4 style="color: gray" id="num6"></h4>
+                    <span>
+                            <i class="icon-dot" style="color: gray"></i>
+                            累计死亡
+                        </span>
+                </div>
+            </div>
+
+        </div>
+        <!--监控-->
+        <div class="monitor panel">
+            <div class="inner">
+                <div class="tabs">
+                    <a data-index="0" class="active" id="bt_1">今日疫情热搜</a>
+                    <a data-index="1" id="bt_2">防疫知识热搜</a>
+                    <a data-index="2" id="bt_3">热搜谣言粉碎</a>
+                    <a data-index="3" id="bt_4">复工复课热搜</a>
+                </div>
+                <div class="content" style="display: block;">
+                    <div class="head">
+                        <span class="col">编号</span>
+                        <span class="col">标题</span>
+                        <span class="col">热度</span>
+                    </div>
+                    <div class="marquee-view">
+                        <div class="marquee" id="div_1">
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="head">
+                        <span class="col">编号</span>
+                        <span class="col">标题</span>
+                        <span class="col">热度</span>
+                    </div>
+                    <div class="marquee-view">
+                        <div class="marquee" id="div_2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="head">
+                        <span class="col">编号</span>
+                        <span class="col">标题</span>
+                        <span class="col">热度</span>
+                    </div>
+                    <div class="marquee-view">
+                        <div class="marquee" id="div_3">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="head">
+                        <span class="col">编号</span>
+                        <span class="col">标题</span>
+                        <span class="col">热度</span>
+                    </div>
+                    <div class="marquee-view">
+                        <div class="marquee" id="div_4">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--点位-->
+        <div class="point panel">
+            <div class="inner">
+                <h3><a style="border-right: 0.083rem solid #00f2f1;padding-right: 0.75rem;">热门人物榜</a><a
+                        style="position: absolute;right: 2.5rem;"><sub style="color: #4c9bfd;">热度</sub></a></h3>
+                <div id="div_5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <!-- 地图 -->
+        <div class="map">
+            <div style="display: flex;">
+                <h3 style="width: 40%">
+                    <input id="cur_diagnosis" name="satisfaction" type="radio" style="display: none"/>
+                    <input id="sum_diagnosis" name="satisfaction" type="radio" style="display: none"/>
+                    <label class="icon-cube"></label>
+                    <label for="cur_diagnosis" id="div1" style="cursor: pointer;display: inline-block"><b
+                            id="cur">现有确诊</b></label>
+                    &emsp;
+                    <label class="icon-cube"></label>
+                    <label for="sum_diagnosis" id="div2" style="cursor: pointer;display: inline-block"><b
+                            id="sum">累计确诊</b></label>
+
+                </h3>
+                <div class="swiper_wrap" style="margin-top: 0.5rem">
+                    <!--                    <b style="font-size: 12px;color: #00f2f1;height: 20px;line-height: 20px">实时播报：</b>-->
+                    <img src="../static/img/information.png" style="height: 15px;width: 20px;margin-top: 3px">&ensp;
+                    <ul class="font_inner" style="margin-left: 1rem"></ul>
+                </div>
+            </div>
+
+            <div class="chart">
+                <div class="geo"></div>
+            </div>
+        </div>
+        <!-- 用户 -->
+        <div class="users panel">
+            <div class="inner">
+                <h3 style="position:absolute;top: 0.7rem"><a style="border-right: 0.083rem solid #00f2f1;padding-right: 0.75rem;">各省份疫情数据</a></h3>
+                <div id="province_graph" style="width: 100%;height: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+
+        <div class="weather" style="position: absolute;right: 1rem;top:-1.7rem;font-size: 1rem;color: white;">
+            <!--<img src="picture/weather.png"><span>多云转小雨</span>--><span
+                id="showTime"></span></div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000);//開始运行
+            function time() {
+                clearTimeout(t);//清除定时器
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours();//获取时
+                var m = dt.getMinutes();//获取分
+                var s = dt.getSeconds();//获取秒
+                document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "-" + h + "时" + m + "分" + s + "秒";
+                t = setTimeout(time, 1000); //设定定时器，循环运行
+            }
+
+        </script>
+
+
+        <!-- 增长趋势 -->
+        <div class="sales panel">
+            <div class="inner">
+                <div class="caption">
+                    <h3>增长趋势</h3>
+                    <a id="bt_5" style="color: white">新增趋势</a>
+                    <a id="bt_6">累计确诊/疑似</a>
+                    <a id="bt_7">累计治愈/死亡</a>
+                </div>
+                <div class="chart">
+                    <!--                    <div class="label">单位:万</div>-->
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 历史热搜 -->
+        <div class="wrap">
+            <div class="channel panel">
+                <div class="inner">
+                    <h3>历史热搜</h3>
+                    <div id="history"></div>
+                </div>
+            </div>
+            <div class="quarter panel">
+                <div class="inner">
+                    <h3>治愈/死亡率</h3>
+                    <div id="probability" style="height: 80%"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 排行榜 -->
+        <div class="top panel">
+            <div id="inner" class="inner">
+                <!--                    <h3 style="margin-bottom: 0.5rem;padding: 0">榜单</h3>-->
+                <div style="height: 100%;width: 100%;display: flex;justify-content: space-between">
+                    <div id="zuo" style="width: 40%;height: 100%;">
+                        <h3 style="text-align: center">疫期飙升榜</h3>
+                        <div id="soar" style="height: 100%;width: 90%;"></div>
+                        <!--                        <table id="soar"></table>-->
+                    </div>
+                    <div id="you" style="width: 60%;height: 100%;">
+                        <div style="display:table-cell;vertical-align:bottom;height: 10%">
+                            <h3 style="margin-left: 1rem">娱乐榜单<a
+                                    style="margin-left: 5rem;font-size: 10px;color: #5bc0de;">//近30日//</a>
+                            </h3>
+                        </div>
+                        <div style="height: 90%;width: 100%;display: flex;margin-top: 0.5rem">
+                            <div style="width: 40%;height: 90%;">
+                                <div class="bang_dan" id="game" style="background: rgba(10, 67, 188, 0.2);">游戏榜</div>
+                                <div class="bang_dan" id="movie">影视榜</div>
+                                <div class="bang_dan" id="novel">小说榜</div>
+                            </div>
+                            <div style="width: 60%;height: 90%;background: rgba(10, 67, 188, 0.2);">
+                                <table id="list" style="width: 100%;text-align: center;height: 100%"></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="../static/lib/jquery-3.4.1.min.js"></script>
+<script src="../static/lib/echarts.js"></script>
+<script src="../static/lib/china.js"></script>
+<script src="../static/lib/echarts-wordcloud.min.js"></script>
+
+<script src="../static/js/index.js"></script>
+<script src="../static/js/trip_map.js"></script>
+<script src="../static/js/summary_data.js"></script>
+<script src="../static/js/search_hot.js"></script>
+<script src="../static/js/date_data.js"></script>
+<script src="../static/js/real_time.js"></script>
+
+<script type="text/javascript" src="../static/js/swiper_lunbo.js"></script>
+
+
+</html>

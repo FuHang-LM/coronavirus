@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tooltip</title>
+    <style>
+        #specialLook {
+            background-color: #73CD11;
+            width: 60px !important;
+            height: 20px !important;
+            border-radius: 2px;
+            padding: 2px 8px;
+            font-size: 12px !important;
+            cursor: pointer;
+            pointer-events: all;
+            border: 0px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div
+        style="width: 100%;height:450px"
+        id="chartsUse"
+>
+</div>
+<script src="../static/lib/echarts.js"></script>
+<script src="../static/lib/jquery-3.4.1.min.js"></script>
+<script src="../static/lib/china.js"></script>
+<script>
+    function testFile() {
+        var myCart = echarts.init(document.querySelector("#chartsUse"));
+        var province = {
+            '北京': 'beijing',
+            '天津': 'tianjin',
+            '上海': 'shanghai',
+            '重庆': 'chongqing',
+            '河北': 'hebei',
+            '河南': 'henan',
+            '云南': 'yunnan',
+            '辽宁': 'liaoning',
+            '黑龙江': 'heilongjiang',
+            '湖南': 'hunan',
+            '安徽': 'anhui',
+            '山东': 'shandong',
+            '新疆': 'xinjiang',
+            '江苏': 'jiangsu',
+            '浙江': 'zhejiang',
+            '江西': 'jiangxi',
+            '湖北': 'hubei',
+            '广西': 'guangxi',
+            '甘肃': 'gansu',
+            '山西': 'shanxi',
+            '内蒙古': 'neimenggu',
+            '陕西': 'shanxi',
+            '吉林': 'jilin',
+            '福建': 'fujian',
+            '贵州': 'guizhou',
+            '广东': 'guangdong',
+            '青海': 'qinghai',
+            '西藏': 'xizang',
+            '四川': 'sichuan',
+            '宁夏': 'ningxia',
+            '海南': 'hainan',
+        };
+        var option = {
+            // tooltip: {
+            //     trigger: 'item',
+            //     formatter: '{b}'
+            // },
+
+
+            tooltip: {
+                // trigger: 'item',
+                triggerOn: 'click',
+                enterable: true,
+                // alwaysShowContent: true,
+                formatter: function (params) {
+                    var myseries = option.series;
+                    console.log(myseries);
+                    var res = '地区：';
+                    var jump = '';
+                    for (var i = 0; i < myseries.length; i++) {
+                        for (var j = 0; j < myseries[i].data.length; j++) {
+                            if (myseries[i].data[j].name == params.name) {
+                                jump += province[myseries[i].data[j].name];
+                                console.log(jump);
+                                res += myseries[i].data[j].name + '<br>' + '确诊：' + myseries[i].data[j].value + '&emsp;<a style="text-decoration:none; color: white" id="jump" href="' + '/' + jump + '">详情></a>' + '</br>';
+                            }
+                        }
+                    }
+                    return res;
+                }
+            },
+            // dataRange: {
+            //     min: 0,
+            //     max: 2500,
+            //     x: 'left',
+            //     y: 'bottom',
+            //     text: ['高', '低'],           // 文本，默认为数值文本
+            //     calculable: true
+            // },
+            visualMap: {
+                // min: 0,
+                // max: 100000,
+                left: 5,
+                bottom: 5,
+                showLabel: true,
+                text: ["高", "低"],
+                textStyle: {
+                    color: "#4c9bfd",
+                },
+                pieces: [{
+                    gt: 10000,
+                    label: "> 10000 人",
+                    color: "#660208"
+                }, {
+                    gte: 1000,
+                    lte: 10000,
+                    label: "1000 - 9999 人",
+                    color: "#8c0d0d"
+                }, {
+                    gte: 100,
+                    lt: 1000,
+                    label: "100 - 999 人",
+                    color: "#cc2929"
+                }, {
+                    gt: 10,
+                    lt: 100,
+                    label: "10 - 99 人",
+                    color: "#ff7b69"
+                }, {
+                    gt: 0,
+                    lt: 10,
+                    label: "1 - 9 人",
+                    color: "#ffaa85"
+                }],
+                show: true
+            },
+            // toolbox: {
+            //     show: true,
+            //     orient: 'vertical',
+            //     x: 'right',
+            //     y: 'center',
+            //     feature: {
+            //         mark: {show: true},
+            //         dataView: {show: true, readOnly: false},
+            //         restore: {show: true},
+            //         saveAsImage: {show: true}
+            //     }
+            // },
+            // roamController: {
+            //     show: true,
+            //     x: 'right',
+            //     mapTypeControl: {
+            //         'china': true
+            //     }
+            // },
+            series: [
+                {
+                    name: '中国',
+                    type: 'map',
+                    mapType: 'china',
+                    selectedMode: 'single',
+                    itemStyle: {
+                        normal: {
+                            // shadowBlur: 50,
+                            // shadowColor: 'rgba(0, 0, 0, 0.2)',
+                            // areaColor: '#142957',
+                            // borderColor: '#0692a4'
+                            borderColor: "rgba(0, 0, 0, 0.2)"
+                        },
+                        emphasis: {
+                            areaColor: "#7cd2f2",
+                            // shadowOffsetX: 0,
+                            // shadowOffsetY: 0,
+                            // borderWidth: 0
+                        }
+                    },
+                    data: [
+                        {name: '北京', value: Math.round(Math.random() * 1000)},
+                        {name: '天津', value: Math.round(Math.random() * 1000)},
+                        {name: '上海', value: Math.round(Math.random() * 1000)},
+                        {name: '重庆', value: Math.round(Math.random() * 1000)},
+                        {name: '河北', value: Math.round(Math.random() * 1000)},
+                        {name: '河南', value: Math.round(Math.random() * 1000)},
+                        {name: '云南', value: Math.round(Math.random() * 1000)},
+                        {name: '辽宁', value: Math.round(Math.random() * 1000)},
+                        {name: '黑龙江', value: Math.round(Math.random() * 1000)},
+                        {name: '湖南', value: Math.round(Math.random() * 1000)},
+                        {name: '安徽', value: Math.round(Math.random() * 1000)},
+                        {name: '山东', value: Math.round(Math.random() * 1000)},
+                        {name: '新疆', value: Math.round(Math.random() * 1000)},
+                        {name: '江苏', value: Math.round(Math.random() * 1000)},
+                        {name: '浙江', value: Math.round(Math.random() * 1000)},
+                        {name: '江西', value: Math.round(Math.random() * 1000)},
+                        {name: '湖北', value: Math.round(Math.random() * 1000)},
+                        {name: '广西', value: Math.round(Math.random() * 1000)},
+                        {name: '甘肃', value: Math.round(Math.random() * 1000)},
+                        {name: '山西', value: Math.round(Math.random() * 1000)},
+                        {name: '内蒙古', value: Math.round(Math.random() * 1000)},
+                        {name: '陕西', value: Math.round(Math.random() * 1000)},
+                        {name: '吉林', value: Math.round(Math.random() * 1000)},
+                        {name: '福建', value: Math.round(Math.random() * 1000)},
+                        {name: '贵州', value: Math.round(Math.random() * 1000)},
+                        {name: '广东', value: Math.round(Math.random() * 1000)},
+                        {name: '青海', value: Math.round(Math.random() * 1000)},
+                        {name: '西藏', value: Math.round(Math.random() * 1000)},
+                        {name: '四川', value: Math.round(Math.random() * 1000)},
+                        {name: '宁夏', value: Math.round(Math.random() * 1000)},
+                        {name: '海南', value: Math.round(Math.random() * 1000)},
+                        {name: '台湾', value: Math.round(Math.random() * 1000)},
+                        {name: '香港', value: Math.round(Math.random() * 1000)},
+                        {name: '澳门', value: Math.round(Math.random() * 1000)}
+                    ]
+                }
+            ]
+        };
+
+
+        myCart.setOption(option)
+
+    }
+
+
+    testFile()
+
+    // function eventInfo(obj, color, val,date) {
+    //     console.log(date);
+    //     console.log(val);
+    //     var chartsInfo = echarts.init(obj);
+    //     chartsInfo.on('click', function (params) {
+    //         console.log('点击转折点 - ',params)
+    //     });
+    //     chartsInfo.setOption({
+    //         color:['#F3052F','#2D3CED','#e4393c','#F5C300','#2F4F4F'],
+    //         legend: {
+    //             x: 'center',
+    //             y: 'bottom',
+    //             itemGap: 80,
+    //             data:['事件统计','人数统计']
+    //         },
+    //         tooltip : {
+    //             axisPointer: {
+    //                 type: 'cross'
+    //             },
+    //             triggerOn: 'click',
+    //             alwaysShowContent:true,
+    //             trigger:'axis',
+    //             formatter:function(params){
+    //                 var html = '';
+    //                 if(params.length>0){
+    //                     Xindex = params[0].dataIndex;
+    //                     console.log(Xindex)
+    //                     // html+= date + ' ' +params[0].name+'<br>';
+    //                     // for ( var int = 0; int < params.length; int++) {
+    //                     //     if(int == 0){
+    //                     html+='<button class="fr btn closeHandle" id="specialLook"><a href ="http://www.baidu.com">查 看</a></button><br>';
+    // 							console.log(html)
+    // 						// }else{
+    //                         //     html+=params[int].marker + params[int].seriesName+': '+params[int].data+'<br>';
+    //                         // }
+    //                     // }
+    //                 }
+    //                 return html;
+    //             },
+    //         },
+    //         calculable : true,
+    //         xAxis : [
+    //             {
+    //                 type : 'category',
+    //                 boundaryGap : false,
+    //                 data : [
+    //                     '10:00','10:30','11:00','11:30',
+    //                     '12:00','12:30','13:00','13:30',
+    //                     '14:00','14:30','15:00','15:30',
+    //                     '16:00','16:30','17:00','17:30',
+    //                     '18:00'
+    //                 ]
+    //             }
+    //         ],
+    //         yAxis : [
+    //             {
+    //                 type : 'value',
+    //                 interval:10,
+    //             }
+    //         ],
+    //         series : [
+    //             {
+    //                 name:'事件统计',
+    //                 type:'line',
+    //                 data:val.eventVal,
+    //             },
+    //             {
+    //                 name:'人数统计',
+    //                 type:'line',
+    //                 data:val.peopleVal
+    //             },
+    //         ]
+    //     });
+    //     return chartsInfo;
+    // }
+    // function echartsStrat(){
+    //     var chartsUseChart1 = '';
+    //     eventCData = {
+    //         'eventVal': [3,5,25,53,73,25,32,55,32,21,32,12,33,12,34,65,23],
+    //         'peopleVal': [5,23,35,12,40,37,11,31,20,40,40,35,78,100,37,23,2,4,1]
+    //     };
+    //     var echartsDate = '2019-08-23' ;// 日期 自定
+    //     var chartsUseChart1 = eventInfo(document.getElementById('chartsUse'), '#50E3C2', eventCData , echartsDate);
+    // }
+    // echartsStrat();
+    // // 查看该时间段
+    // function lookVideoGo(val){
+    //     console.log('时间 - ',val)
+    // }
+</script>
+</body>
+</html>
